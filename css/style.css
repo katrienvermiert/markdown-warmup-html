@@ -1,17 +1,36 @@
 body {
-    background-color: white;
-    margin-left: 2%;
+    background-color: rgb(92, 79, 9);
+    width: 100%;
 }
 
 h1 {
-    text-decoration: underline;
+    background-color: rgb(13, 14, 14);
+    color: rgb(92, 79, 9);
+    text-align: center;
 }
 
 h2 {
-    color: grey;
+    color: rgb(14, 12, 12);
+    margin-left: 3%
 }
 
 ul {
-    border: 2px solid grey;
-    width: 25%;
+    margin-left: 3%
+}
+
+a{
+    color: rgb(13, 14, 14);
+}
+
+.column1 {
+    width: 45%;
+    margin-left:5%;
+}
+.column2 {
+    float: right;
+    position: relative;
+    bottom: 529px;
+    width: 45%;
+    margin-right: -10%;
+    
 }
